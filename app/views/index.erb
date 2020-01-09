@@ -3,9 +3,9 @@
   <body>
     <h1>Posts</h1>
     <% @posts.each do |post| %>
-      <strong><%= post.name %></strong><br />
-      <%= post.content %>
-      <br /><br />
+      <br><strong><%= post.name %></strong><br />
+      <br><%= post.content %>
+      <br />
     <% end %>
   </body>
 </html>
